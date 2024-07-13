@@ -1,0 +1,98 @@
+<% layout("/layout/boilerplate")%>
+<body>
+  <div class="row mt-3">
+  <div class="col-8 offset-2" >
+  
+  <h3>Create a new listing</h3> 
+  <form method="POST" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input name="list[title]" 
+      placeholder="enter title" 
+      type="text" 
+      class="form-control"
+      required>
+      <div class="valid-feedback">
+        Title Looks good!
+      </div>
+  
+    </div>
+      
+    <div class="mb-3">
+      <label for="title" class="form-label">Description</label>
+      <textarea name="list[description]" 
+      placeholder="enter description" type="text"
+      class="form-control" required></textarea>
+
+      <div class="valid-feedback">
+      Description  Looks good!
+      </div>
+  
+    </div>
+
+    <div class="mb-3">
+      <label for="image" class="form-label">Upload Listing Image</label>
+      <input name="list[image]" type="file" class="form-control"
+      >
+    </div>
+
+    <div class="row">
+    <div class="mb-3 col-md-4">
+      <label for="price" class="form-label">Price</label>
+      <input name="list[price]" placeholder="enter price" type="number" class="form-control"
+      required>
+      <div class="invalid-feedback">
+        Price should be valid!
+      </div>
+  
+    </div>
+
+    <div class="mb-3 col-md-8">
+      <label for="country" class="form-label">Country</label>
+      <input name="list[country]" type="text" placeholder="enter country" type="text" class="form-control"
+      required>
+      <div class="invalid-feedback">
+        Please provide valid country!
+      </div>
+    </div>
+
+    </div>
+
+    <div class="mb-3">
+      <label for="location" class="form-label">Location</label>
+      <input name="list[location]" placeholder="enter location" type="text" class="form-control"
+      required>
+      <div class="invalid-feedback">
+        Please provide valid city!
+      </div>
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+  </div>
+  </div>
+ 
+</body>
+
+
+
+
+
+
+<!-- <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form> -->
