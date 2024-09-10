@@ -7,11 +7,9 @@ Voyage Nest is a web application designed to help users find short-term rental a
 The project has been deployed at Render. Experience the responsive UI and sleek design at **[Voyage Nest](https://voyage-nest.onrender.com/listings)**.
 
 ## Screenshots
-
-![Voyage Nest Screenshot 1]("D:\rishu\Pictures\Screenshots\voyagenest1.png")  
-![Voyage Nest Screenshot 2]()
-![Voyage Nest Screenshot 3](![voyagenest3](https://github.com/user-attachments/assets/98768bb5-6b89-4a78-a0b1-44cb37dd928e)
-)
+![voyagenest1](https://github.com/user-attachments/assets/eac91188-a565-460f-8e9c-934417613225)
+![voyagenest2](https://github.com/user-attachments/assets/495edb80-5c58-4a0c-aa45-dff0d53a77ce)
+![voyagenest3](https://github.com/user-attachments/assets/e8fc86b6-becd-4272-87f8-8a17558ef20f)
 
 ## API Reference
 
